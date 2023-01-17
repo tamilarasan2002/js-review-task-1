@@ -1,13 +1,12 @@
 var vote=prompt("voter id true or false");
-var age=parseInt(prompt("Enter your age"))
-var qulifiction=(prompt("Enter your Qulification"))
+var age=parseInt(prompt("Enter your age"));
 
-if(age>18 && qulifiction>10){
+if(age>18){
 	if(vote=="true"){
 		document.write("elgible for vote")
 	}
 	else{
-		document.write("eligible for vote failed in test")
+		document.write("user to get a voter id")
 	}
 }
 else{
