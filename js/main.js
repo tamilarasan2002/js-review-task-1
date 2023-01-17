@@ -1,9 +1,9 @@
-var vote=true;
-var age=19;
-var qulifiction=12;
+var vote=prompt("voter id true or false");
+var age=parseInt(prompt("Enter your age"))
+var qulifiction=(prompt("Enter your Qulification"))
 
 if(age>18 && qulifiction>10){
-	if(vote==true){
+	if(vote=="true"){
 		document.write("elgible for vote")
 	}
 	else{
